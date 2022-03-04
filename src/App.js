@@ -5,8 +5,7 @@ import { OtpValidation } from "./OtpValidation";
 function App() {
   return (
     <ChakraProvider>
-    
-      <OtpValidation/>
+      <OtpValidation />
     </ChakraProvider>
   );
 }
