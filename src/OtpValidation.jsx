@@ -41,10 +41,11 @@ export const OtpValidation = () => {
             <Text
               fontSize={["1.5rem", "1.5rem", "1.5rem", "2rem"]}
               fontWeight="700"
+              fontFamily={'DM Sans'}
             >
               Welcome to Ostello
             </Text>
-            <Text fontSize={["1.5rem", "1.5rem", "1.5rem", "1.4rem"]} fontWeight="500">
+            <Text fontSize={["1.5rem", "1.5rem", "1.5rem", "1.4rem"]} fontWeight="500" fontFamily={'DM Sans'}>
               Register as a new Institute
             </Text>
 
@@ -63,6 +64,7 @@ export const OtpValidation = () => {
               color={"#7D23E0"}
               fontSize={["0.8rem", "0.8rem", "0.8rem", "1.4rem"]}
               fontWeight="500"
+              fontFamily={'DM Sans'}
             >
               Resend OTP
             </Text>
@@ -79,6 +81,8 @@ export const OtpValidation = () => {
                 fontSize={["0.8rem", "0.8rem", "0.8rem", "1.4rem"]}
                 px="1rem"
                 fontWeight={"400"}
+                fontFamily='Gilroy'
+                
               >
                 Oops..wrong OTP, try again
               </Text>
@@ -94,6 +98,7 @@ export const OtpValidation = () => {
               py="1.5rem"
               fontSize={["1.2rem", "1.2rem", "1.2rem", "2rem"]}
               fontWeight="700"
+              fontFamily={'DM Sans'}
             >
               Proceed
             </Button>
@@ -102,6 +107,7 @@ export const OtpValidation = () => {
               fontSize={["0.8rem", "0.8rem", "0.8rem", "1.2rem"]}
               flexDirection={["column", "column", "column", "row"]}
               fontWeight="400"
+              fontFamily={'DM Sans'}
             >
               <Text>Already have an account?</Text>
               <Button
